@@ -1,0 +1,364 @@
+[33mcommit 4358adfc0046c7eb3020d44289f14c338d81d32f[m[33m ([m[1;36mHEAD -> [m[1;32mrefatoracao-codigo[m[33m, [m[1;31morigin/refatoracao-codigo[m[33m)[m
+Merge: cc21044 075e600
+Author: Jefferson Souza Rodrigues <jsodricacula@hotmail.com>
+Date:   Tue Dec 10 23:30:56 2019 -0400
+
+    Merge branch 'refatoracao-codigo' of git.ledes.net:portalLedes/PortalLedes into refatoracao-codigo
+
+[33mcommit cc210442ac50265204909e53d2b695d21c2458ee[m
+Author: Jefferson Souza Rodrigues <jsodricacula@hotmail.com>
+Date:   Tue Dec 10 23:30:30 2019 -0400
+
+    Users adicionando
+
+[33mcommit 075e600659a818ba1e8a1f85306f07270a0ce2bd[m
+Merge: 4368bd5 734757e
+Author: Jefferson  Rodrigues <jefferson_rodrigues@dominio.ledes.net>
+Date:   Tue Dec 10 01:52:37 2019 -0300
+
+    Merge branch 'master' into 'refatoracao-codigo'
+    
+    Merge branch 'refatoracao-codigo' into 'master'
+    
+    See merge request !8
+
+[33mcommit 4368bd5f1c3789ecc4d0bed132d21c127d7572ba[m
+Author: Jefferson Souza Rodrigues <jsodricacula@hotmail.com>
+Date:   Tue Dec 10 00:48:49 2019 -0400
+
+    Informações para o merge
+
+[33mcommit c1cc8eef042b6014bd3ecb5caa9adda8ebf6c07d[m
+Author: Jefferson Souza Rodrigues <jsodricacula@hotmail.com>
+Date:   Tue Dec 10 00:31:50 2019 -0400
+
+    Seeders refatorados, CRUD Projetos e Membros refatorado
+
+[33mcommit 32c5399f4e2fb899d3994eca1d719b6a1f31da51[m
+Author: Jefferson Souza Rodrigues <jsodricacula@hotmail.com>
+Date:   Mon Dec 9 14:03:56 2019 -0400
+
+    Refatoração migrates, controllers e models
+
+[33mcommit 734757e2fb9262abc4d7c67d5f6b9241e0de7302[m
+Merge: e939ef7 0ccee31
+Author: Jefferson  Rodrigues <jefferson_rodrigues@dominio.ledes.net>
+Date:   Fri Dec 6 10:35:10 2019 -0300
+
+    Merge branch 'refatoracao-codigo' into 'master'
+    
+    Refatoracao codigo
+    
+    See merge request !7
+
+[33mcommit 0ccee319bf84984aad6e7a3b88f3ce94eeae4da2[m
+Author: Jefferson Souza Rodrigues <jsodricacula@hotmail.com>
+Date:   Fri Dec 6 09:33:50 2019 -0400
+
+    Refatorado Users e noticias
+
+[33mcommit 317b89f81e373301257944f5468d4a2b318f32e8[m
+Author: Jefferson Souza Rodrigues <jsodricacula@hotmail.com>
+Date:   Thu Dec 5 14:01:59 2019 -0400
+
+    Refatoração do das tabelas Users e People
+
+[33mcommit a3c00d5719525f84b3b2b833406c57f982a15c02[m
+Author: Jefferson Souza Rodrigues <jsodricacula@hotmail.com>
+Date:   Tue Dec 3 20:49:25 2019 -0400
+
+    Seeder das notícias para padronização
+
+[33mcommit 54a203b14369d140540912f8d5b887ba5347967b[m
+Author: Jefferson Souza Rodrigues <jsodricacula@hotmail.com>
+Date:   Tue Dec 3 16:40:45 2019 -0400
+
+    Algumas mudanças no layout antes da refatoração
+
+[33mcommit e939ef7b44554cc7b4e7dfab8bd0172a01c632f1[m[33m ([m[1;32mmaster[m[33m)[m
+Merge: b5b4781 f531825
+Author: Jefferson  Rodrigues <jefferson_rodrigues@dominio.ledes.net>
+Date:   Thu Nov 28 04:08:12 2019 -0300
+
+    Merge branch 'projeto-detalhes' into 'master'
+    
+    Projeto detalhes
+    
+    See merge request !6
+
+[33mcommit f53182587075b213e1faf53b3304773064e206d2[m[33m ([m[1;31morigin/projeto-detalhes[m[33m, [m[1;32mprojeto-detalhes[m[33m)[m
+Author: Jefferson Souza Rodrigues <jsodricacula@hotmail.com>
+Date:   Thu Nov 28 03:06:28 2019 -0400
+
+    Formatação do detailsNoticeGeneral
+
+[33mcommit 8ce408e93caf2cb0f541b185edd388ccf3642d6e[m
+Author: Jefferson Souza Rodrigues <jsodricacula@hotmail.com>
+Date:   Wed Nov 27 19:31:12 2019 -0400
+
+    Edição do input FILE dentro das edições e das notícias no portal
+
+[33mcommit 29f53635388a0e25f16e9ff0ed6b5cc2658a278a[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Sun Nov 24 14:22:07 2019 -0400
+
+    Implementado delete da notícia
+
+[33mcommit efd2e81d7cb4d0294abcc266a3c39937a4ebb1ef[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Sat Nov 23 02:05:45 2019 -0400
+
+    Tabela de noticias, 3 últimas notícias aparecem na página, noticias listadas na homepage
+
+[33mcommit e9c76655a08ee6d7c4f6ec9a9a317d8dcb6689fb[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Thu Nov 21 19:57:21 2019 -0400
+
+    Adicionando Notícia no banco de dados
+
+[33mcommit 70e6a3fb41ee20e3ee48ef52478d1280d067df52[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Wed Nov 20 02:47:21 2019 -0400
+
+    Mudança nas imagens do SobreNos, correções da home
+
+[33mcommit 49543fdfef8fb40a97f9e919c8b17415ad0468de[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Wed Nov 20 02:01:55 2019 -0400
+
+    detalhes dos slids thumbnail
+
+[33mcommit 4dde51efcae906f67061e322e9fc43357f77ae99[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Wed Nov 20 00:45:48 2019 -0400
+
+    Quase pronto a Thumbnail
+
+[33mcommit 3a8df66765e83a8c4ad551ed9f74b17e13828030[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Tue Nov 19 17:51:16 2019 -0400
+
+    Thumbnail em construção
+
+[33mcommit c6e82d9aba5033571b6a14497364ead3d58a928c[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Tue Nov 12 15:27:41 2019 -0400
+
+    Colocando a thumbnail de notícias no portal
+
+[33mcommit 46796a33afdb7a85dc0bc8a07404ddc5120a27e7[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Mon Nov 11 18:07:37 2019 -0400
+
+    Sobre nós (sem edição banco), footer
+
+[33mcommit 6ae26a6e61ace545a4915631ac44af6f41fc75f4[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Sun Nov 10 21:17:44 2019 -0400
+
+    Editar sem duplicar as imagens ( só duplica se colocar a mesma imagem de novo), edição de membros alterada e layout geral
+
+[33mcommit b1ebaf4364f187638da3e80742c54cd767e9008d[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Wed Nov 6 17:11:27 2019 -0400
+
+    mudanças no layout da tabela, toda descrição com Edição de texto summernote, mudança no layout das edições
+
+[33mcommit b5b47818794eb0660b38a5ed794f488b3b4ceab8[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Tue Nov 5 10:05:36 2019 -0400
+
+    Menu dropdown navbar
+
+[33mcommit 9a10f9ae7c6a03f02b593de6f8fd906f75714733[m[33m ([m[1;33mtag: CRUD-Membros-Projeto-Usuario-SobreNos[m[33m, [m[1;31morigin/projeto_e_detalhesProjeto[m[33m)[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Mon Nov 4 16:04:54 2019 -0400
+
+    Merge da branch LayoutAdm feito com sucesso!
+
+[33mcommit 0f441aaad38a6df34058c76b3776385ea8136e7a[m
+Merge: 3a5177c 0f89284
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Mon Nov 4 15:37:24 2019 -0400
+
+    Teste para request na master
+
+[33mcommit 3a5177c04606a0ef4192e5a3b5c4c5f7ae6c6be1[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Mon Nov 4 15:34:49 2019 -0400
+
+    Factory User teste para o merg
+
+[33mcommit 7c8eec8e0e523fbcd32272f150c0abe893834aa3[m
+Merge: 05015e8 8b2b116
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Mon Nov 4 15:10:46 2019 -0400
+
+    Merge branch 'layoutAdm'
+
+[33mcommit 8b2b1162f46730ffa4b9571bb8c1498c154692d6[m[33m ([m[1;32mlayoutAdm[m[33m)[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Mon Nov 4 14:14:04 2019 -0400
+
+    Sobre Nos CRUD, imagem membros e projetos ajustada, mudanças no migrate
+
+[33mcommit 0f8928419260fc4c249cb064f9369e535a49daa1[m
+Merge: 05015e8 3f7f802
+Author: Jefferson  Rodrigues <jefferson_rodrigues@dominio.ledes.net>
+Date:   Mon Nov 4 15:11:48 2019 -0300
+
+    Merge branch 'layoutMembros' into 'master'
+    
+    Layout membros
+    
+    See merge request !2
+
+[33mcommit 9d658a51eecd8ad7af118809f776aeec12e874a0[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Mon Nov 4 09:29:55 2019 -0400
+
+    CRUD Membros, Usuários, Projetos. Sobre Nós adicionado e barra de menu do portal
+
+[33mcommit bcb61290d69ef265532bfa7c8de08cab90286f80[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Sun Nov 3 04:48:49 2019 -0400
+
+    Gerenciar Usuários CRU, Gerenciar membros CRU
+
+[33mcommit 5644e35262003373584baa354030bb1e4db40337[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Sat Nov 2 09:01:01 2019 -0400
+
+    upload Seeders, Create dashboard to adm, lista de Membros, lista de Usuários
+
+[33mcommit 1f227962dedbbcdd9fef2a649f5891364b9c815d[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Wed Oct 30 17:14:20 2019 -0400
+
+    Lista membros alinhada
+
+[33mcommit 3f7f802f863ad80bc98974f7f41210f9c7e2999d[m[33m ([m[1;31morigin/layoutMembros[m[33m, [m[1;32mlayoutMembros[m[33m)[m
+Author: Johnny Diniz <johnny.dnz@outlook.com>
+Date:   Wed Oct 30 14:41:46 2019 -0400
+
+    Conexão de Layout com Banco de Dados
+
+[33mcommit eada700bfa06e922fa43c45220c2c74a0934e8cc[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Wed Oct 30 13:49:33 2019 -0400
+
+    Cadastrar membro, dashboard com registro de membro e upload de imagem do membro
+
+[33mcommit a1d43ce3edb08dc69565a4842d952626af8e9f0a[m
+Author: Johnny Diniz <johnny.dnz@outlook.com>
+Date:   Sun Oct 27 10:45:30 2019 -0400
+
+    Criação de métodos de Seed para testar o Layout (DatabaseSeeder/MembrosTableSeeder)
+    Definição de Layout conforme mockup fornecido.
+
+[33mcommit 05015e8d2af17c2caa5b9b72839cedcfa1af61ff[m[33m ([m[1;31morigin/changeNames[m[33m, [m[1;32mchangeNames[m[33m)[m
+Merge: dc50084 6379436
+Author: Jefferson  Rodrigues <jefferson_rodrigues@dominio.ledes.net>
+Date:   Mon Oct 21 13:52:21 2019 -0300
+
+    Merge branch 'authUsuario' into 'master'
+    
+    Auth usuario
+    
+    See merge request !1
+
+[33mcommit 6379436c5f63a24e39d61435d54dfe83f92c683d[m[33m ([m[1;31morigin/authUsuario[m[33m, [m[1;32mauthUsuario[m[33m)[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Mon Oct 21 13:50:53 2019 -0400
+
+    Logine e registro feito com sucesso com autenticação
+
+[33mcommit 98908c6c9749fd5586258c9df626322f4c4fbfc2[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Thu Oct 17 19:36:26 2019 -0400
+
+    Adicionando estilo ao Login
+
+[33mcommit 7e0155e046df5a4fac72259a0d452145e25c0dce[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Tue Oct 15 05:09:09 2019 -0400
+
+    Login com Autenticação
+
+[33mcommit 4bdd32cbf015183d0a05d74e776b65bcc0a3b030[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Tue Oct 15 04:18:58 2019 -0400
+
+    Criaçãcoa do usuáario completo e atualizacao nas migrations
+
+[33mcommit bfa683edbaeab4e88c0287fbbb3b7d2a05f0e140[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Sat Oct 12 06:42:54 2019 -0400
+
+    Migrations com id do laravel e relacionamentos com chave estrangeira
+
+[33mcommit dc50084b5f990df42eec291453c6ee0b53c4b65f[m
+Author: Jefferson  Rodrigues <jefferson_rodrigues@dominio.ledes.net>
+Date:   Sat Oct 12 05:47:25 2019 -0400
+
+    Delete .gitlab-ci.yml
+
+[33mcommit cdd87295720204305db251bf70dcddd63b8bfc7f[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Fri Oct 11 21:09:35 2019 -0400
+
+    FOrmulário de cadastro, migrations atualizado
+
+[33mcommit b09d0c488872abbde7e4532d3482218e0d05388a[m
+Author: Jefferson  Rodrigues <jefferson_rodrigues@dominio.ledes.net>
+Date:   Mon Oct 7 16:44:23 2019 -0400
+
+    Update .gitlab-ci.yml
+
+[33mcommit c3e343238cdcf2d4b6a2fadc9cad044c6632fd43[m
+Author: Jefferson  Rodrigues <jefferson_rodrigues@dominio.ledes.net>
+Date:   Mon Oct 7 16:33:10 2019 -0400
+
+    Add gitlab-ci
+
+[33mcommit 650cb1aa4dbbe41a36070922c95db2bd0da2247f[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Thu Oct 3 18:51:39 2019 -0400
+
+    Criado so migrations com as adicções do banco de dados. Documento do banco de dados Postgre pode ser executado localmente com as dependências
+
+[33mcommit a4c6fd8f833a99cdf89d1156988fa4916bf22e95[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Tue Oct 1 12:49:15 2019 -0400
+
+    Adicionando os migrations, sem os atributos de tabela
+
+[33mcommit ff1065dfd04b35aa75fb9e99df45a51b4deb2a20[m[33m ([m[1;32mnovalaravel[m[33m)[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Tue Sep 17 12:11:14 2019 -0400
+
+    Navbar responsiva e com o visual melhor
+
+[33mcommit a76bab751be3f96a31b97eb797ac3300cee21cb4[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Thu Sep 12 23:13:20 2019 -0400
+
+    Inicio da implementação da Navbar do portal do Lefdes2
+
+[33mcommit 2c4b00f7a9ca69a140e803c145b9ceb2855b6385[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Thu Sep 12 21:35:20 2019 -0400
+
+    Inicio da implementação da Navbar do portal do Ledes
+
+[33mcommit bfa3728afcb1fcc7077c0c1ed56caee14cbf1107[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Mon Sep 2 14:33:54 2019 -0400
+
+    Edição do README
+
+[33mcommit 462c927caa2505466065c381ecc9fdd264843a03[m[33m ([m[1;32mportal[m[33m)[m
+Author: Jefferson Souza Rodrigues <jeffersoncacula@gmail.com>
+Date:   Wed Aug 28 16:34:19 2019 -0400
+
+    Commit Inicial para o projeto em Laravel
