@@ -18,6 +18,7 @@ class AutenticacaoController extends Controller
      * @return view
      */
     public function login(){
+
         return view('auth.login');
     }
 

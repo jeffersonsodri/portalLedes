@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ADM LEDES</title>
@@ -181,6 +181,10 @@
         <div class="circulo1 absolute"></div>
         <div class="circulo2 absolute"></div>
         <div class="footer absolute">
+            <span>Todos os direitos reservados. Universidade Federal de Mato Grosso do Sul. Copyright © 2020</span>
+            <br>
+            <span>(067) 3345-7910 /  Faculdade de Computação, Cidade Universitária, CEP 79070-900. Campo Grande - MS</span>
+            <span></span>
             <img src="{{  asset('image/icones/ufms.png') }}" class="rounded float-right" alt="ufms" width="60" height="75" style="margin-right:30px;">
         </div>
 

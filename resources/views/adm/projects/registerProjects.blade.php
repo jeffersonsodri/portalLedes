@@ -86,7 +86,7 @@
 
 
                         {{-- Pegar o id do adm logado --}}
-                        <input type="hidden" value="{{ Auth::user()->id }}" name="id">
+                        <input type="hidden" value="{{ Auth::user()->id }}" name="author_id">
 
                         {{-- Botões : Registar ou Cancelar --}}
                         <div class="form-group">

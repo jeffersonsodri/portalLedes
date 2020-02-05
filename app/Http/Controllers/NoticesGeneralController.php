@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\DB;
 class NoticesGeneralController extends Controller
 {
 
-    private $totalPage = 5;
+    private $totalPage = 3;
     private $totalPageList = 8;
 
 
@@ -84,12 +84,12 @@ class NoticesGeneralController extends Controller
         $arrayNotice = DB::table('notices')
             ->join('notices_general', 'notices.id', '=', 'notices_general.notice_id')
             ->get();
-        // dd($arrayNotice);
+        //dump($arrayNotice);
 
         //Pega o tamanho do Array de Noticas
         $tamanho = sizeof($arrayNotice);
 
-        // dd($tamanho);
+        //dump($tamanho);
         $cont = 0;
 
         $notices[0] = '';

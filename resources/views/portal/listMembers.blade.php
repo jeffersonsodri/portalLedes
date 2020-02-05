@@ -2,28 +2,31 @@
 
 @section('baseDoPortal')
 
+        <h1 class="titulo">MEMBROS</h1>
+        <hr style="background-color: #6937FF">
 
-        <div class="col justify-content-start">
-            <h1 style="margin-left: 1.0rem" class="titulo">MEMBROS</h1>
-            <hr style="background-color: #6937FF">
-        </div>
-        <div class="row justify-content-start">
-            
-            <div class="card-distance">
-                <ul>
-                    @foreach ($members as $item)
-                    <li>
-                        <a href="#">
-                            <img src="image/photos/{{ $item->photo}}" alt="{{ $item->photo }}"/>
-                            <p>{{ $item->name}} <br>
-                                {{ $item->course }}</p>
-                      
-                        </a>
-                    </li>
 
-                    @endforeach
-                </ul>
-            </div>
+        <div class="row">
+
+            @foreach ($members as $item)
+                <div class="col-lg-3">
+                    <a href="{{route('detailMember', $item->id)}}">
+                        <div class="card card-description">
+                            <img src="image/photos/{{ $item->photo}}" alt="{{ $item->photo }}" class="card-img-top card-img" />
+                            <div class="card-body">
+                                <p class="card-text">
+                                    {{ $item->name}}
+                                </p>
+                                <h5 class="card-title">
+                                    {{ $item->course }}
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            @endforeach
+
         </div>
-    
+
+
 @endsection

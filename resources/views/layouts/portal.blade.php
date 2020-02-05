@@ -16,6 +16,7 @@
     <!-- Styles -->
    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
    <link href="{{ asset('css/stylePortalDefault.css') }}" rel="stylesheet">
+   <link href="{{ asset('css/') }}@yield('css')" rel="stylesheet">
 
 
    {{-- Bootstrap 4.1 --}}
@@ -124,9 +125,8 @@
         <div class="circulo2 absolute"></div>
         <div class="footer absolute">
             <span>Todos os direitos reservados. Universidade Federal de Mato Grosso do Sul. Copyright © 2020</span>
-            <br>
             <span>(067) 3345-7910 /  Faculdade de Computação, Cidade Universitária, CEP 79070-900. Campo Grande - MS</span>
-            <span></span>
+
             <img src="{{  asset('image/icones/ufms.png') }}" class="rounded float-right" alt="ufms" width="60" height="75" style="margin-right:30px;">
         </div>
 

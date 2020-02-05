@@ -41,10 +41,18 @@ class MembersController extends Controller
     {
 
 
-       $members = DB::table('members')->join('peoples', 'peoples.id','=','members.people_id')->get();
-    //    dd($members);'1
+       $members = DB::table('peoples')->join('members', 'members.people_id','=','peoples.id')->get();
+    //    dump($members);
        return view('portal.listMembers', compact('members'));
 
+    }
+
+    public function detailsMembers($id)
+    {
+        $member = DB::table('members')-> join('peoples', 'peoples.id','=','members.people_id')
+        ->where('members.id', $id )->first();
+        //  dump($member);
+        return view('portal.detailMembers', compact('member'));
     }
 
     /**

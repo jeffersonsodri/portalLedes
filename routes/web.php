@@ -13,14 +13,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-
+//Home
 Route::get('/', "NoticesGeneralController@index")->name('home');
 
 // Auth::routes();
-
-
-// Route::get('/home', 'HomeController@index')->name('home');
-
 
 
 // Rota para o Login
@@ -31,6 +27,7 @@ Route::get('/logout', 'AutenticacaoController@logout')->name('logout');
 
 //Membros
 Route::get('/listarMembros', 'MembersController@index')->name('listMembers');
+Route::get('/listaMembros/details/{id}','MembersController@detailsMembers')->name('detailMember');
 
 //Projetos
 Route::get('/listarProjetos', 'ProjectsController@index')->name('listProjects');
@@ -65,6 +62,7 @@ Route::group(['middleware' => 'admin'], function () {
     Route::get('/adm/tabelaMembros/{id}/editarMembro', 'MembersController@edit')->name('editMembers');
     Route::put('/adm/editarMembro/{id}', 'MembersController@update')->name('updateMembers');
     Route::get('adm/deletarMembro/{id}','MembersController@destroy')->name('deleteMember');
+
 
 
     /**
